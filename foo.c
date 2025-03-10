@@ -1,3 +1,7 @@
-int main() {
-    return 0;
+#include "foo.h"
+
+int foo(int b) {
+    if (b > 2)
+      return 0;
+    return 1;
 }
